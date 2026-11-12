@@ -1,0 +1,21 @@
+name: sort_members
+description: >-
+  Sorts Dart and Flutter class members using the Dart analysis server, the
+  same operation as the "Sort Members" action in your IDE.
+version: 0.1.0
+repository: https://github.com/CalsRanna/sort_members
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  analysis_server_lib: ^0.2.5
+  args: ^2.7.0
+  path: ^1.9.0
+
+dev_dependencies:
+  lints: ^6.1.0
+  test: ^1.25.0
+
+executables:
+  sort_members:
